@@ -10,7 +10,7 @@ class App extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			title: (Math.random() > 0.5 ? "BI GOOF" : "BIG OOF")
+			title: "FTB Ultimate Reloaded"
 		}
 		this.fetchData = this.fetchData.bind(this)
 	}
